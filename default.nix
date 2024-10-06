@@ -1,7 +1,6 @@
 # Taken from https://github.com/NixOS/nixpkgs/pull/285941 and updated to latest stable
 # Thanks to ilikefrogs101 for the original PR!
-{ lib
-, stdenv
+{ stdenv
 , fetchFromGitHub
 , pkg-config
 , autoPatchelfHook
